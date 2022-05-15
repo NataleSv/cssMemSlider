@@ -161,4 +161,10 @@ input[type='radio'] {
     .controls{
         margin-bottom: 5vh;
     }
+    .wrap-slider-description {
+        width: 100%;
+    }
+    .description {
+        font-size: 1.4em;
+    }
 }
