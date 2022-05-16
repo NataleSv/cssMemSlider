@@ -74,6 +74,7 @@ input[type='radio'] {
     width: 100%;
     font-size: 1.6em;
     color: white;
+
 }
 
 .controls {
@@ -107,12 +108,20 @@ input[type='radio'] {
     transition: all .7s;
 }
 
-.wrap-control-btn:hover .control-btn,
-.wrap-control-btn:active .control-btn{
+.wrap-control-btn:hover .control-btn {
     border-color: #fff;
     background-color: #fff;
     transition: all .5s;
 }
+
+.wrap-control-btn:active .control-btn {
+    border-color: #afafaf;
+    background-color: #afafaf;
+    transition: all .5s;
+}
+
+
+
 
 #first-slide:checked ~ .slider-wrap > .slider {
     margin-left: 0;
