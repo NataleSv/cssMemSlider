@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>cssMemSlider</title>
+</head>
+<body>
+
+<section class="wrapper">
+    <h1>CSS Mem Slider</h1>
+    <input type="radio" name="radio" id="first-slide" checked>
+    <input type="radio" name="radio" id="second-slide">
+    <input type="radio" name="radio" id="third-slide">
+    <input type="radio" name="radio" id="forth-slide">
+    <div class="slider-wrap">
+        <div class="slider">
+            <div class="slide">
+                <img class="slide-img" src="img/1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img class="slide-img" src="img/2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img class="slide-img" src="img/3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img class="slide-img" src="img/4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="wrap-container">
+        <div class="wrap-slider-description">
+            <div class="slider-description">
+                <p class="description first-slide">Nobody knows how anything works...</p>
+                <p class="description second-slide">Wakey! We broke everything! </p>
+                <p class="description third-slide">Stage1 is at an end...</p>
+                <p class="description forth-slide">I've got to do this without JS?</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <label class="wrap-control-btn" for="first-slide">
+                <span class="control-btn active-btn-1"></span>
+            </label>
+            <label class="wrap-control-btn" for="second-slide">
+                <span class="control-btn active-btn-2"></span>
+            </label>
+            <label class="wrap-control-btn" for="third-slide">
+                <span class="control-btn active-btn-3"></span>
+            </label>
+            <label class="wrap-control-btn" for="forth-slide">
+                <span class="control-btn active-btn-4"></span>
+            </label>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
